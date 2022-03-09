@@ -1,0 +1,49 @@
+/* @theme paniversity
+ * @author Jiwon Park
+ * @size iPad_Pro_11' 1194px 834px
+ * @size iPad_Pro_12.9' 1366px 1024px
+ */
+
+@import 'default';
+section {
+    font-family: "Pretendard";
+    background: rgb(255, 255, 255);
+    position: absolute;
+    /* border-radius: 20px;*/
+}
+
+section.title {
+    background: #0046fb;
+    text-align: center;
+}
+
+section.title * {
+    color: white;
+}
+
+section.title h1 {
+    font-size: 4em;
+}
+
+section.title h1 strong {
+    color: rgb(32, 190, 169);
+}
+
+pre {
+    border: none;
+    border-radius: 20px;
+    line-height: 1.4;
+    padding: 1.2em;
+}
+
+pre>code {
+    font-family: "hack";
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+}
+
+code {
+    font-family: "hack";
+    color: #1a41a3;
+    font-weight: bold;
+}
