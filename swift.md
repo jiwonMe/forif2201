@@ -482,8 +482,8 @@ class Dog {
 }
 
 var dog = Dog()
-dog.name == "Coco"
-dog.age == 3
+dog.name = "Coco"
+dog.age = 3
 ```
 
 ---
@@ -536,7 +536,7 @@ struct User {
 ## deinitializer
 
 ```swift
-struct User {
+class User {
     ...
     deinit {
         print("deinit")
@@ -596,7 +596,10 @@ struct Stock {
 }
 
 var stock = Stock(averagePrice: 2300, quantity: 3)
+print(stock.purchasePrice)
 
+stock.purchasePrice = 3000
+print(stock.averagePrice)
 ```
 
 ---
